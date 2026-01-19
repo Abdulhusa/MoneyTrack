@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173", "https://money-track-frontend-sigma.vercel.app"], // Add your Vercel link here
+  origin: ["http://localhost:5173", "https://money-track-frontend-8iynfko8c-abdul-husain-dahodwalas-projects.vercel.app"], // Add your Vercel link here
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
